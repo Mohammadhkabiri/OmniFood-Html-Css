@@ -151,3 +151,26 @@ body {
     background-color: #fdf2e9;
     box-shadow: 0 0 0 3px #fff;
 }
+
+.section--featured {
+    padding: 4.8rem 0;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo {
+    height: 3.2rem;
+    filter: brightness(0);
+    opacity: 50%;
+}
+
+.featured--heading {
+    font-size: 1.4rem;
+    letter-spacing: 0.75px;
+    text-align: center;
+    margin-bottom: 2.4rem;
+}
