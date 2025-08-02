@@ -311,6 +311,9 @@ body {
 }
 
 
+
+
+
 .section--featured {
     padding: 4.8rem 0;
 }
@@ -449,7 +452,7 @@ strong {
 
 .section--testimonials {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 55fr 45fr;
     padding: 9.6rem 1.2rem;
     background-color: #fae5d3;
     align-items: center;
@@ -484,27 +487,135 @@ strong {
 }
 
 
-.gallery{
+.gallery {
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.6rem;
     padding: 1.6rem;
 }
 
 
-.gallery--item{
+.gallery--item {
     overflow: hidden;
 }
 
-.gallery--item img{
+.gallery--item img {
     display: block;
     width: 100%;
     transition: all 0.4s;
 }
 
-.gallery--item img:hover{
+.gallery--item img:hover {
     transform: scale(1.1);
     border-radius: 0.9rem;
     box-shadow: 0 0 3 rgba(0, 0, 0, 0.075);
 }
 
+.container--pricing {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6.4rem;
+    margin-bottom: 9.6rem;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+
+
+.Pricing--plan {
+
+    border-radius: 1.1rem;
+    width: 75%;
+    padding: 4.8rem;
+}
+
+
+.plan--header {
+    text-align: center;
+    margin-bottom: 4.8rem;
+}
+
+.Plan--name {
+    color: #cf711f;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+    letter-spacing: 0.75px;
+    text-transform: uppe;
+}
+
+.plan--price {
+    color: #333;
+    font-weight: 600;
+    font-size: 6.2rem;
+    margin-bottom: 1.6rem;
+}
+
+.plan--price span {
+    margin-right: 1.8rem;
+    font-weight: 500;
+}
+
+.plan--text {
+    color: #777;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.plan--signup {
+    text-align: center;
+    margin-top: 4.8rem;
+}
+
+
+.first--plan {
+    justify-self: end;
+    /* background-color: #fff; */
+    border: 2px solid #fae5d3;
+
+}
+
+.Complete--plan {
+    background-color: #fae5d3;
+    position: relative;
+    overflow: hidden;
+}
+
+.Complete--plan::after {
+    content: "Best value";
+    position: absolute;
+    top: 6%;
+    right: -18%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    transform: rotate(45deg);
+    background-color: #f9c91a;
+    padding: 0.8rem 8rem;
+}
+
+.grid--4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.feauture--title{
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+
+.feauture--text{
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
+.feauture--icon{
+    color: #cf711f;
+    height: 2.4rem;
+    width: 2.4rem;
+    margin-bottom: 3.2rem;
+    background-color: #fae5d3;
+    padding: 1.6rem;
+    border-radius: 50%;
+}
