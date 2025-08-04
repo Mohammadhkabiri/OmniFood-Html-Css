@@ -1,0 +1,283 @@
+@media(max-width : 84em) {
+    .hero {
+        max-width: 120em;
+    }
+
+    .Heading--description {
+        font-size: 4.4em;
+    }
+}
+
+
+@media(max-width : 75em) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .Heading--description {
+        font-size: 3.6rem;
+    }
+
+    .paragraph--description {
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        line-height: 2;
+    }
+
+    .grid {
+        column-gap: 4.8rem;
+        row-gap: 6.4rem;
+    }
+
+    .second--primary--heading {
+        font-size: 3.6rem;
+    }
+
+    .heading--teritary {
+        font-size: 2.4rem;
+    }
+
+    .main--nav--list {
+        gap: 2.4rem;
+    }
+
+    .container {
+        width: 100rem;
+    }
+
+    .text--hero {
+        padding: 2.4rem;
+    }
+
+    .hero {
+        gap: 4.8rem;
+    }
+
+    .container--testimonials {
+        padding: 9.6rem 2rem;
+    }
+
+}
+
+@media(max-width:59em) {
+    html {
+        font-size: 50%;
+    }
+
+    .logo {
+        height: 2.4rem;
+    }
+
+    .step--number {
+        font-size: 7.4rem;
+    }
+
+    .section--testimonials {
+        padding: 3.2rem 1.2rem;
+        grid-template-columns: 1fr;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .container--testimonials {
+        padding: 2.4rem 2rem;
+    }
+
+    .cta {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .cta--form {
+        grid-template-columns: 1fr;
+    }
+
+    .cta--form button {
+        margin-top: 1.2rem;
+    }
+
+
+    .btn--mobile--nav {
+        display: block;
+    }
+
+    .main--nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.966);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.6s ease-in;
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+        transform: translateX(100%);
+
+    }
+
+    .main--nav--list {
+        flex-direction: column;
+        gap: 4.8rem;
+        font-size: 3.2rem;
+        font-weight: 600;
+    }
+
+    .nav--open .mobile--nav--icon[name="close-outline"] {
+        display: block;
+        position: relative;
+        z-index: 1100;
+    }
+    .nav--open .main--nav {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translateX(0);
+        z-index: 1000;
+    }
+
+
+    .nav--open .mobile--nav--icon[name="menu-outline"] {
+        display: none;
+    }
+
+}
+
+
+@media(max-width: 50em) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media(max-width:40em) {
+    html {
+        font-size: 35%;
+    }
+
+    .grid--4 {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 6rem;
+    }
+
+
+}
+
+
+@media(max-width:35em) {
+    html {
+        font-size: 30%;
+    }
+
+    .grid--3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .diets {
+        grid-column: 1 / -1;
+        justify-self: center;
+        margin-bottom: 3.2rem;
+    }
+
+    .section--how {
+        padding: 0 4rem;
+    }
+
+
+    .grid--5 {
+        grid-template-columns: repeat(6, 1fr);
+        row-gap: 4rem;
+    }
+
+    .nav--col {
+        grid-row: 1;
+        grid-column: span 2;
+    }
+
+    .logo--col,
+    .address--col {
+        grid-column: span 3;
+    }
+}
+
+@media(max-width:30em) {
+    html {
+        font-size: 22%;
+    }
+
+    .grid,
+    .grid--3,
+    .grid--4 {
+        grid-template-columns: 1fr;
+    }
+
+    .footer {
+        padding: 9.6rem 3.2rem;
+    }
+
+    .step--img--box:nth-child(2) {
+        grid-row: 1;
+    }
+
+    .step--img--box:nth-child(6) {
+        grid-row: 5;
+    }
+.heading--teritary{
+    font-size: 4.4rem;
+}
+
+    .step--description {
+        font-size:2.3rem;
+    }
+
+    .step--img{
+        width: 25%;
+    }
+
+    .feauture--text{
+        margin-bottom: 4.8rem;
+    }
+
+    .meal--title{
+        font-size: 3rem;
+    }
+    .meal--attribute{
+        font-size: 2.4rem;
+    }
+
+    .list--item{
+        font-size: 2.4rem;
+    }
+
+    .testimonial--text{
+        font-size: 2.4rem;
+    }
+    .testimonial--name{
+        font-size: 2rem;
+    }
+
+    .feauture--text{
+    font-size: 2.4rem;
+    }
+
+    .form--text{
+        font-size: 2.4rem;
+    }
+    .logo{
+        height: 2;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media(max-width:22em) {
+    html {
+        font-size: 20%;
+    }
+}
