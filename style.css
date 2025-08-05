@@ -661,7 +661,7 @@ strong {
 
 .cta--img--box {
     background-image: linear-gradient(to right bottom, rgba(244, 175, 115, 0.5), rgba(230, 125, 34, 0.5)),
-        url(../content/img/eating.jpg);
+        url(content/img/eating.jpg);
     background-size: cover;
     background-position: center;
 }
